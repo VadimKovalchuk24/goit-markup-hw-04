@@ -266,11 +266,20 @@ background-color: var(--accent-color);
 .peculiarities-item:last-child{
     margin-right: 0;
 }
+
 .peculiarities-text{
     color: var(--second-text-color);
     font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.peculiarities-icon{
+  background-color: var(--third-bg-color);
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  height: 120px;
 }
 /* Our work */
 .our-work-section{
@@ -381,11 +390,15 @@ background-color: var(--accent-color);
 .team-soc-link:hover,
 .team-soc-link:focus{
   background-color: var(--accent-color);
-  fill:var(--white-color);
 }
 .team-soc-icons{
   fill:currentColor;
 }
+
+.team-soc-icons:hover{
+  fill: #FFFFFF;
+}
+
 
 
 
