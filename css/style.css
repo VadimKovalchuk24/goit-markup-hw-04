@@ -88,7 +88,7 @@ button{
     display: flex;
   align-items: center;
   width: 1200px;
-  padding: 0 215;
+  
  }
 
  .logo-web{
@@ -141,7 +141,7 @@ button{
 
   padding-top: 32px;
   padding-bottom: 32px;
-  display: inline-block;
+  display: flex;
 
   font-weight: 500;
   font-size: 14px;
@@ -149,6 +149,7 @@ button{
   letter-spacing: 0.02em;
 
   color: var(--second-text-color);
+  align-items: center;
 }
 .contact-head:hover,
 .contact-head:focus{
